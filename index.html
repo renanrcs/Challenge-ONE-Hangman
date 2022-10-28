@@ -16,5 +16,35 @@
             <h2>Challenge ONE - Jogo da Forca</h2>
         </div>
     </header>
+    <main>
+        <section class="section-main">
+            <div id="div-game">
+                <div id="div-tabuleiro">
+                    <canvas id="canvas" width="800" height="600"></canvas>
+                </div>
+                <div class="content">
+                    <div class="div-buttons-game">
+                        <button id="btn-new-game">Novo Jogo</button>
+                        <button id="btn-end-game">Desistir</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="div-addWord">
+                <input id="text" type="text">
+                <button id="btn-saveWord">Salvar e começar</button>
+                <button id="btn-cancel">Cancelar</button>
+            </div>
+
+            <div id="div-buttons-start">
+                <button id="btn-start-game" class="btn">Iniciar Jogo</button>
+                <button id="btn-add-word" class="btn">Adicionar Nova Palavra</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- JS -->
+    <script type="module" src="./JS/script.js"></script>
+    <script type="module" src="./JS/canvas.js"></script>
 </body>
 </html>
